@@ -1,0 +1,70 @@
+<html>
+<head>
+	<title>Unslise</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+</head>
+<body>
+	
+	<section id='signup-content'>
+		
+			<div class='signup-wrap'>
+				<div class='signup-head center extra-height'>
+					Welcome to Unslice
+				</div>
+				<div class='contents no-padding'>
+					<div class='help-head signup-line center'>
+						Please fill out the information below to get started
+					</div>
+					<form class='full-width signup-form'>
+						<div class='content-box no-border content-padding' id='help-wrap'>
+							<div class='field'>
+								<label>Firt Name</label>
+								<input type='text' placeholder=''>
+							</div>
+							<div class='field'>
+								<label>Last Name</label>
+								<input type='text' placeholder=''>
+							</div>
+							<div class='field'>
+								<label>Email</label>
+								<input type='email' placeholder=''>
+							</div>
+							<div class='field'>
+								<label>Title</label>
+								<input type='text' placeholder=''>
+							</div>
+							<div class='field'>
+								<label>Password</label>
+								<input type='password' placeholder=''>
+							</div>
+							<div class='field'>
+								<label>Confirm Password</label>
+								<input type='password' placeholder=''>
+							</div>
+							<div class='field'>
+								<input type='file' name='profile_pic' id='profile_pic' value=''>
+								<label class='center'><img src="images/user.png" width='80'></label>
+								<button onclick="fileUpload()" type="button" class="btn btn-grey btn-small" id="file-btn">Upload profile picture</button>
+							</div>
+							<div class='field center-480'>
+								<label class='hide-480'>&ensp;</label>
+								<input type='submit' class='btn btn-green' value='Login' >
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		
+	</section>
+	<footer></footer>
+	<script type="text/javascript">
+	function fileUpload()
+	{
+		$('#profile_pic').click();
+	}
+	</script>
+</body>
+</html>

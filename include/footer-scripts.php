@@ -1,0 +1,11 @@
+<!--[if lte IE 7]><script src="js/icons-lte-ie7.js"></script><![endif]-->
+    <script src="<?php echo SITE_URL; ?>js/jquery.min.js"></script>
+    <script src="<?php echo SITE_URL; ?>js/respond.min.js"></script>
+    <script src="<?php echo SITE_URL; ?>js/scripts.js"></script>
+    <script src="<?php echo SITE_URL; ?>js/jquery.validate.min.js"></script>
+    <script src="<?php echo SITE_URL; ?>js/contact.js"></script>
+    <script src="<?php echo SITE_URL; ?>js/bootstrap.min.js"></script>
+    <script src="<?php echo SITE_URL; ?>js/accordion.js"></script>
+    <script src="<?php echo SITE_URL; ?>js/add-modal-actions.js"></script>
+    <script src="<?php echo SITE_URL; ?>js/calculator-control.js"></script>
+    <script src="<?php echo SITE_URL; ?>js/custom.js"></script>
